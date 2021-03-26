@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Jean-Francis Bastien']
   spec.email         = ['bhacaz@gmail.com']
 
-  spec.summary       = 'Send Undercover report to a Pull Request Checks on Github'
+  spec.summary       = 'Send Undercover report to a Pull Request Checks on Github.'
   spec.description   = 'Send Undercover report to a Pull Request Checks on Github.'
   spec.homepage      = 'https://github.com/Bhacaz/undercover_checks'
   spec.license       = 'MIT'
@@ -31,4 +31,5 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_dependency 'jwt', '~> 2'
+  spec.add_dependency 'undercover', '~> 0.4.0'
 end
