@@ -1,6 +1,6 @@
 # UndercoverChecks
 
-Send Undercover report to a Pull Request Checks on Github
+Send [Undercover](https://github.com/grodowski/undercover) report to a Pull Request Checks on Github.
 
 ## Installation
 
@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ### Prerequisites
 
-See [Undercover)[https://github.com/grodowski/undercover] installation guide.
+See [Undercover](https://github.com/grodowski/undercover) installation guide.
 
 ### CLI
 
