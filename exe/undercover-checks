@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require_relative '../lib/undercover_checks'
+
+UndercoverChecks::CLI.run(ARGV)
+# git_diff_data = system('bundle exec undercover')
+# # DeltaSimplecovChecks::Checks.new(git_diff_data).post_check
+# DeltaSimplecovChecks::Checks.new(git_diff_data).post_with_serverless
